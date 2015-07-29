@@ -1,123 +1,229 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hello! • Shreyans Jain</title>
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Shreyans Jain</title>
+<meta name="description" content="A minimal Jekyll theme for your blog by designer Michael Rose.">
+<meta name="keywords" content="Jekyll, theme, responsive, blog, template">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Shreyans Jain">
+<meta name="twitter:description" content="A minimal Jekyll theme for your blog by designer Michael Rose.">
+<meta name="twitter:site" content="@shreyans2">
+<meta name="twitter:creator" content="@shreyans2">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/images/sample-image-1.jpg">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shreyans Jain">
+<meta property="og:description" content="A minimal Jekyll theme for your blog by designer Michael Rose.">
+<meta property="og:url" content="/">
+<meta property="og:site_name" content="Shreyans Jain">
+
+<meta property="og:image" content="/images/sample-image-1.jpg">
+
+
+
+
+
+
+<link rel="canonical" href="/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Shreyans Jain Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="home">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="/">Shreyans Jain</a>
+	</div><!-- /.site-name -->
+	<!-- <div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				    
+				        
+				    
+				    <li><a href="/about/" >About</a></li>
+				
+				    
+				        
+				    
+				    <li><a href="/posts/" >Sample Posts</a></li>
+				
+				    
+				        
+				    
+				    <li><a href="/theme-setup/" >Theme Setup</a></li>
+				
+				    
+				        
+				        
+				    <li><a href="http://mademistakes.com" target="_blank">Made Mistakes</a></li>
+				
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+  <div class="image-wrap">
+  <img src=
     
+      "/images/sample-image-1.jpg"
     
-    
-    
-    	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Hello!">
-	
-	
-	
-	
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="/images/">
-	
-	<!-- Open Graph -->
-	<meta property="og:locale" content="">
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="Hello!">
-	
-	<meta property="og:url" content="/">
-	<meta property="og:site_name" content="Shreyans Jain">
-
-    <link rel="canonical" href="/">
-
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Shreyans Jain Atom Feed">
-    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cleartype" content="on">
-
-    <link rel="stylesheet" href="/css/main.css">
-    <!-- HTML5 Shiv and Media Query Support for IE -->
-    <!--[if lt IE 9]>
-      <script src="/js/vendor/html5shiv.min.js"></script>
-      <script src="/js/vendor/respond.min.js"></script>
-    <![endif]-->
-
-  </head>
-
-  <body id="js-body">
-    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
-
-    <header id="masthead">
-  <div class="inner-wrap">
-    <a href="/" class="site-title">Shreyans Jain</a>
-    <nav role="navigation" class="menu top-menu">
-        <ul class="menu-item">
-	<li class="home"><a href="/">Shreyans Jain</a></li>
-	
-    
-        
-    
-    <li><a href="" ></a></li>
+  alt=" feature image">
   
-</ul>
-    </nav>
-  </div><!-- /.inner-wrap -->
-</header><!-- /.masthead -->
-    <nav role="navigation" id="js-menu" class="sliding-menu-content">
-  <h5>Shreyans Jain <span>Table of Contents</span></h5>
-  <ul class="menu-item">
-    <li>
-      <a href="">
-        
-        <div class="title"></div>
-        
-      </a>
-    </li>
-  </ul>
-</nav>
-<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
-  <span class="nav-lines"></span>
-</button>
-
-<div id="js-menu-screen" class="menu-screen"></div>
+    <span class="image-credit">Bubble Pond in Acadia National Park, ME by Chinmay Sharma</span>
+  
+  </div><!-- /.image-wrap -->
 
 
-    <div id="page-wrapper">
-      <div id="main" role="main">			
-	<div class="wrap">
-		
-		<div class="page-title">
-			<h1>Hello!</h1>
-			
-		</div>
-		<div class="archive-wrap">
-			<div class="page-content">
-				<div class="tiles">
+<div id="main" role="main"> 
+  <div class="article-author-side">
+    
 
+
+<div itemscope itemtype="http://schema.org/Person">
+
+
+	<img src="/images/bio-photo.jpg" class="bio-photo" alt="Shreyans Jain bio photo">
+
+
+  <h3 itemprop="name">Shreyans Jain</h3>
+  <p>Gallup, Inc.</p>
+  
+  <a href="http://twitter.com/shreyans2" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+  
+  
+  <a href="http://linkedin.com/in/jainshreyans" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
+  
+  
+  
+  <a href="http://github.com/shrej" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a href="https://scholar.google.com/citations?user=FFK-TwkAAAAJ" class="author-social" target="_blank"><i class="fa fa-fw fa-google"></i> Google Scholar</a>
 </div>
-<!-- /.tiles -->
 
-			</div><!-- /.page-content -->
-		</div class="archive-wrap"><!-- /.archive-wrap -->
-	</div><!-- /.wrap -->
-</div><!-- /#main -->
-      <footer role="contentinfo" id="site-footer">
-	<nav role="navigation" class="menu bottom-menu">
-		<ul class="menu-item">
-		
+  </div>
+  <div id="index">
+    <h3><script>var myDate=new Date;document.write(myDate.getHours()<12?"Good Morning!":myDate.getHours()>=12&&myDate.getHours()<=17?"Good Afternoon!":myDate.getHours()>17&&myDate.getHours()<=24?"Good Evening!":"I'm not sure what time it is!");</script></h3>
+    <article>
+      <p>
+        <br>
+        My name is Shreyans, and I am a Front end developer at <a href="http://www.gallup.com">Gallup, Inc.</a> </p><p>In past, I worked as a graduate research at the <a href="http://www.vemilab.org">Virtual Environments and Multimodal interactions lab</a> at <a href="http://www.umaine.edu">The University of Maine.</a>
+      </p>
+      <p></p>
+      <br><p> Feel free to have a look at my <a href="http://digitalcommons.library.umaine.edu/etd/1855/">graduate research</a> or some of my <a href="http://www.spatial.maine.edu/~shreyans.jain/projects.html">personal projects.</a></p>
+
+    </article>
+<!--         
+    <article>
       
+        <h2><a href="/author-override/" title="Author Override">Author Override</a></h2>
+        <p>A post to test author overrides using a data file.</p>
+      
+    </article>
         
+    <article>
       
-			<li><a href="" ></a></li>
-		
-		</ul>
-	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2015 <a href="">Shreyans Jain</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/" rel="nofollow">Skinny Bones</a>.</p>
-</footer>
-    </div>
+        <h2><a href="/code-highlighting-post/" title="Syntax Highlighting Post">Syntax Highlighting Post</a></h2>
+        <p>Demo post displaying the various ways of highlighting code in Markdown.</p>
+      
+    </article>
+        
+    <article>
+      
+        <h2 class="link-post"><a href="/sample-link-post/" title="Sample Link Post">Sample Link Post</a> <a href="http://mademistakes.com" target="_blank" title="Sample Link Post"><i class="fa fa-link"></i></h2>
+      
+    </article>
+        
+    <article>
+      
+        <h2><a href="/readability-feature-post/" title="Post with Large Feature Image and Text">Post with Large Feature Image and Text</a></h2>
+        <p>Custom written post descriptions are the way to go... if you're not lazy.</p>
+      
+    </article>
+        
+    <article>
+      
+        <h2><a href="/sample-post-images/" title="A Post with Images">A Post with Images</a></h2>
+        <p>Examples and code for displaying images in posts.</p>
+      
+    </article>
+     -->
+  </div><!-- /#index -->
+</div><!-- /#main -->
 
-    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="/js/main.js"></script>
+<div class="footer-wrap">
+  <footer>
+    
 
-  </body>
+<span>&copy; 2015 Shreyans Jain. <!-- Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a> theme. --></span>
 
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+  
+</body>
 </html>
