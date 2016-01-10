@@ -2,7 +2,7 @@
 
 title:            Shreyans Jain
 locale:           en_US
-url:              
+url:
 
 
 # Jekyll configuration
@@ -28,19 +28,19 @@ kramdown:
 owner:
   name: Shreyans Jain
   avatar: bio-photo.jpg
-  bio: "Gallup, Inc."
-  email: 
-  disqus-shortname: 
+  bio: "Salesforce"
+  email:
+  disqus-shortname:
   twitter: shreyans2
   facebook: #iamshreyans
   google:
     plus: #username
     analytics:
-    verify: 
-    ad-client: 
+    verify:
+    ad-client:
     ad-slot:
-    scholar: FFK-TwkAAAAJ 
-  bing-verify: 
+    scholar: FFK-TwkAAAAJ
+  bing-verify:
   github: shrej
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: jainshreyans
