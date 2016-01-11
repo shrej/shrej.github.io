@@ -39,7 +39,8 @@
     console.log('More or less ' + crd.accuracy + ' meters.');
     map = new google.maps.Map(document.getElementById('map'), {
       center: myLocation,
-      zoom: 15
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.HYBRID
     });
 
     infowindow = new google.maps.InfoWindow();
